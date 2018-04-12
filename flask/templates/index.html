@@ -1,0 +1,13 @@
+{% extends 'main.html' %}
+
+{% block body %}
+<!--  test: search wikipedia   -->
+
+<form action="http://en.wikipedia.org/wiki/Special:Search">
+    <p>
+    <input type="text" value="" id="SearchInput" name="search"/>
+<!--    <input type="submit" value="Go" name="Go" id="searchGoButton"/>-->
+    <input type="submit" value="Search" name="fulltext"/>
+    </p>
+</form>
+{% endblock %}
